@@ -36,9 +36,30 @@ public class Constructions {
             System.out.println(cnt + " ");
         }
 
-        //
+        //Перебирає елементи, тут массива
         char[] charArray = "abcde".toCharArray();
+        for (char c : charArray) {
+            System.out.println(c);
+        }
 
+        // ПОМИЛКИ
 
+        try {
+            System.out.println(1/0);
+        }
+        catch (Exception e){
+            e.printStackTrace(System.err);
+        }
+        finally {
+            System.out.println();
+        }
+
+        someMethod(111);
+    }
+
+    public static void someMethod (int i){
+        if (i == 0)
+            return;
+        System.out.println(i);
     }
 }
