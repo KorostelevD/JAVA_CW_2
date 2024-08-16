@@ -21,5 +21,24 @@ public class Constructions {
        };
         System.out.println(res);
         //
+
+        //цикли
+        while (res > 0){
+            res --;
+        }
+        do {
+            System.out.println();
+        }
+        while (false);
+
+        //
+        for (int cnt = 0; cnt < 100; cnt++) {
+            System.out.println(cnt + " ");
+        }
+
+        //
+        char[] charArray = "abcde".toCharArray();
+
+
     }
 }
